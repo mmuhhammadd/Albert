@@ -61,9 +61,9 @@
                         <button class="btn rounded-pill px-4 py-2 border-light text-light" style="background-color: #192a56;" type="submit">Login</button>
                     </div>
                     @if (Route::has('password.request'))
-                        <a class="btn btn-link" style="color: white" href="{{ route('password.request') }}">
+                        {{-- <a class="btn btn-link" style="color: white" href="{{ route('password.request') }}">
                             {{ __('Forgot Your Password?') }}
-                        </a>
+                        </a> --}}
                     @endif
                     </form>
                 </div>
